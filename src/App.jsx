@@ -3,10 +3,15 @@
  * @license Apache-2.0
  */
 
+/**
+ * Components
+ */
+import Header from "./components/Header";
+
 const App = () => {
   return (
     <div>
-      <h1>Shubham Mittal</h1>
+      <Header />
     </div>
   );
 };
