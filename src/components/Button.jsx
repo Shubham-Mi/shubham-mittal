@@ -41,7 +41,7 @@ const ButtonPrimary = ({ href, target = "_self", label, icon, classNames }) => {
   }
 };
 
-ButtonPrimary.prototype = {
+ButtonPrimary.propTypes = {
   href: PropTypes.string,
   target: PropTypes.string,
   label: PropTypes.string.isRequired,
@@ -49,4 +49,45 @@ ButtonPrimary.prototype = {
   classNames: PropTypes.string,
 };
 
-export { ButtonPrimary };
+/**
+ * Outline button
+ */
+const ButtonOutline = ({ href, target = "_self", label, icon, classNames }) => {
+  if (href) {
+    return (
+      <a
+        href={href}
+        target={target}
+        className={`btn btn-outline ${classNames}`}
+      >
+        {label}
+        {icon && (
+          <span className="material-symbols-rounded" aria-hidden={true}>
+            {icon}
+          </span>
+        )}
+      </a>
+    );
+  } else {
+    return (
+      <button className={`btn btn-outline ${classNames}`}>
+        {label}
+        {icon && (
+          <span className="material-symbols-rounded" aria-hidden={true}>
+            {icon}
+          </span>
+        )}
+      </button>
+    );
+  }
+};
+
+ButtonOutline.propTypes = {
+  href: PropTypes.string,
+  target: PropTypes.string,
+  label: PropTypes.string.isRequired,
+  icon: PropTypes.string,
+  classNames: PropTypes.string,
+};
+
+export { ButtonPrimary, ButtonOutline };
