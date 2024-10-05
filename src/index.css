@@ -35,6 +35,14 @@ body {
   @apply text-3xl  lg:text-4xl lg:leading-tight;
 }
 
+.subtitle {
+  @apply text-zinc-400 mt-3 mb-8 max-w-[50ch];
+}
+
+.title-1 {
+  @apply text-[22px] font-normal;
+}
+
 /* ---------------------------------- *\
  * UTILITIES
 \* ---------------------------------- */

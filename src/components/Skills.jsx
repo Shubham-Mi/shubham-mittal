@@ -131,9 +131,7 @@ const Skills = () => {
     <section id="skills" className="section">
       <div className="container">
         <h2 className="headline-2">My Tech Arsenal</h2>
-        <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch]">
-          The Tools That Power My Solutions
-        </p>
+        <p className="subtitle">The Tools That Power My Solutions</p>
         <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
           {skillItem.map((item, index) => (
             <SkillCard
