@@ -130,7 +130,7 @@ const Skills = () => {
   return (
     <section id="skills" className="section">
       <div className="container">
-        <h2 className="headline-2">My Tech Arsenal</h2>
+        <h2 className="headline-2 reveal-up">My Tech Arsenal</h2>
         <p className="subtitle">The Tools That Power My Solutions</p>
         <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
           {skillItem.map((item, index) => (
@@ -139,6 +139,7 @@ const Skills = () => {
               imgSrc={item.imgSrc}
               label={item.label}
               desc={item.desc}
+              classNames="reveal-up"
             />
           ))}
         </div>

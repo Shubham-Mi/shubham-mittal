@@ -51,7 +51,7 @@ const Projects = () => {
   return (
     <section id="projects" className="section">
       <div className="container">
-        <h2 className="headline-2">Developer&apos;s Playground</h2>
+        <h2 className="headline-2 reveal-up">Developer&apos;s Playground</h2>
         <p className="subtitle">Where I Practice, Build & Grow</p>
         <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
           {projectsList.map((project, index) => (
@@ -61,6 +61,7 @@ const Projects = () => {
               title={project.title}
               tags={project.tags}
               projectLink={project.projectLink}
+              classNames="reveal-up"
             />
           ))}
         </div>
