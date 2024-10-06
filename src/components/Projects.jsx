@@ -10,37 +10,37 @@ import ProjectCard from "./ProjectCard";
 
 const projectsList = [
   {
-    imgSrc: "/images/projects/project.jpg",
+    imgSrc: "images/projects/project.jpg",
     title: "Project 1",
     tags: ["tag1", "tag2"],
     projectLink: "",
   },
   {
-    imgSrc: "/images/projects/project.jpg",
+    imgSrc: "images/projects/project.jpg",
     title: "Project 2",
     tags: ["tag1", "tag2"],
     projectLink: "",
   },
   {
-    imgSrc: "/images/projects/project.jpg",
+    imgSrc: "images/projects/project.jpg",
     title: "Project 3",
     tags: ["tag1", "tag2"],
     projectLink: "",
   },
   {
-    imgSrc: "/images/projects/project.jpg",
+    imgSrc: "images/projects/project.jpg",
     title: "Project 4",
     tags: ["tag1", "tag2"],
     projectLink: "",
   },
   {
-    imgSrc: "/images/projects/project.jpg",
+    imgSrc: "images/projects/project.jpg",
     title: "Project 5",
     tags: ["tag1", "tag2"],
     projectLink: "",
   },
   {
-    imgSrc: "/images/projects/project.jpg",
+    imgSrc: "images/projects/project.jpg",
     title: "Project 6",
     tags: ["tag1", "tag2"],
     projectLink: "",
