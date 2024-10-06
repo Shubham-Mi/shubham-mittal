@@ -7,6 +7,7 @@
  * Components
  */
 import { ButtonPrimary, ButtonOutline } from "./Button";
+import ShubhamMittalResume from "../resume/ShubhamMittal_Resume.pdf";
 
 const Hero = () => {
   return (
@@ -34,7 +35,12 @@ const Hero = () => {
             Where Code Meets Creativity: Building Digital Excellence
           </h2>
           <div className="flex items-center gap-3">
-            <ButtonPrimary label="Download CV" icon="download" />
+            <ButtonPrimary
+              href={ShubhamMittalResume}
+              label="Download CV"
+              icon="download"
+              download="Shubham Mittal Resume"
+            />
             <ButtonOutline
               href="#about"
               label="Scroll down"
